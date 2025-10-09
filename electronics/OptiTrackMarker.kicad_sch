@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1ee121e3-f00f-41e9-9f71-839fc9072ed1")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 39.37 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c3e6d0c-0655-4cbd-ac01-be204861f2c1")
+		(property "Sheetname" "main"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 25.4 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OptiTrackMarker2"
+				(path "/1ee121e3-f00f-41e9-9f71-839fc9072ed1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
