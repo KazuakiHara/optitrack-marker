@@ -2602,16 +2602,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 119.38 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "058bde51-132e-492e-92e5-e897369ab944")
-	)
-	(wire
-		(pts
 			(xy 161.29 97.79) (xy 161.29 102.87)
 		)
 		(stroke
@@ -3172,6 +3162,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 82.55) (xy 121.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a254f5da-7ea2-4da4-af89-b1c11c55d087")
+	)
+	(wire
+		(pts
 			(xy 40.64 82.55) (xy 40.64 85.09)
 		)
 		(stroke
@@ -3352,16 +3352,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 81.28) (xy 119.38 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d36005-c12c-4d65-b8fa-f18cc81816b9")
-	)
-	(wire
-		(pts
 			(xy 17.78 95.25) (xy 20.32 95.25)
 		)
 		(stroke
@@ -3369,16 +3359,6 @@
 			(type default)
 		)
 		(uuid "e3fae283-ec1a-4de6-8fa2-91f15682277a")
-	)
-	(wire
-		(pts
-			(xy 119.38 80.01) (xy 121.92 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9fce5e8-b3d2-476a-8097-40879a9cd205")
 	)
 	(wire
 		(pts
@@ -5590,6 +5570,71 @@
 			(project "OptiTrackMarker"
 				(path "/1ee121e3-f00f-41e9-9f71-839fc9072ed1/1c3e6d0c-0655-4cbd-ac01-be204861f2c1"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea637636-2546-493e-b8d9-7c1a5d115de2")
+		(property "Reference" "#PWR011"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd3f0012-ae72-4499-a8ba-55eb404f6d5b")
+		)
+		(instances
+			(project "OptiTrackMarker"
+				(path "/1ee121e3-f00f-41e9-9f71-839fc9072ed1/1c3e6d0c-0655-4cbd-ac01-be204861f2c1"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
